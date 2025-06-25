@@ -25,7 +25,7 @@ Installation
 
 Step 1: Clone the Repository
 
-    git clone https://github.com/your-username/xdr.git
+    git clone https://github.com/darksoulEngineer/xdr.git
 Step 2: Navigate to the Project Directory
 
     cd xdr
