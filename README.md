@@ -19,11 +19,11 @@ XDR_C2 is a command-line multi-tool written in Python that bundles several secur
 
 ### Features
 
-- **Remote Command** — A command-and-control style shell built on TCP sockets. The `master` component listens for a connection and sends commands; the `slave` component executes them and returns output, demonstrating a basic remote-shell protocol with length-prefixed messages.
-- **Cryptography** — File encryption and decryption using the `cryptography` library (Fernet symmetric encryption). Keys are generated on first use and stored under `Assets/Ransomware/`.
-- **Ransomware** — An educational ransomware simulation that overwrites a target file with an HMAC-SHA256 digest, illustrating how ransomware destroys recoverable data. For research and demonstration purposes only.
-- **Steganography** — Hides and extracts text within images using the least-significant-bit (LSB) technique via Pillow. Image assets are handled under `Assets/Steganography/`.
-- **Contact** — Displays developer contact information from `Assets/App/Contact`.
+- **Remote Command**: A command-and-control style shell built on TCP sockets. The `master` component listens for a connection and sends commands; the `slave` component executes them and returns output, demonstrating a basic remote-shell protocol with length-prefixed messages.
+- **Cryptography**: File encryption and decryption using the `cryptography` library (Fernet symmetric encryption). Keys are generated on first use and stored under `Assets/Ransomware/`.
+- **Ransomware**: An educational ransomware simulation that overwrites a target file with an HMAC-SHA256 digest, illustrating how ransomware destroys recoverable data. For research and demonstration purposes only.
+- **Steganography**: Hides and extracts text within images using the least-significant-bit (LSB) technique via Pillow. Image assets are handled under `Assets/Steganography/`.
+- **Contact**: Displays developer contact information from `Assets/App/Contact`.
 
 ## Requirements
 
@@ -64,11 +64,11 @@ XDR_C2 is a command-line multi-tool written in Python that bundles several secur
 
 Launch `python app.py` to print the banner and open the interactive menu. Type the number of the tool you want at the `xdr >` prompt:
 
-1. **Remote Command** — choose `1` to start the master (listener) or `2` to start the slave (client).
-2. **Cryptography** — encrypt or decrypt files located in `Assets/Ransomware/`.
-3. **Ransomware** — run the ransomware simulation against a file in `Assets/Ransomware/`.
-4. **Steganography** — hide or extract data in images under `Assets/Steganography/`.
-5. **Contact** — show developer contact details.
+1. **Remote Command**: choose `1` to start the master (listener) or `2` to start the slave (client).
+2. **Cryptography**: encrypt or decrypt files located in `Assets/Ransomware/`.
+3. **Ransomware**: run the ransomware simulation against a file in `Assets/Ransomware/`.
+4. **Steganography**: hide or extract data in images under `Assets/Steganography/`.
+5. **Contact**: show developer contact details.
 6. Exit the tool.
 
 A walkthrough of the steganography module is available on [Loom](https://www.loom.com/share/26082fe5466c493799f002e7ece6bcd1).
@@ -77,4 +77,4 @@ A walkthrough of the steganography module is available on [Loom](https://www.loo
 
 ## License
 
-GPL-3.0 — see [LICENSE](LICENSE).
+GPL-3.0. See [LICENSE](LICENSE).
